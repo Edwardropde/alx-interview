@@ -5,9 +5,9 @@ Island perimeter computing module.
 
 
 def island_perimeter(grid):
-"""
-compute perimeter of an island with no lakes.
-"""
+    """
+    Computes the perimeter of an island with no lakes
+    """
     perimeter = 0
     if type(grid) != list:
         return 0
